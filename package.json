@@ -1,0 +1,27 @@
+{
+  "name": "calculator_typescript_terminal",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cal": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.4",
+    "chalk": "^5.1.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.1.4",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.5",
+    "@types/inquirer": "^9.0.3"
+  }
+}
